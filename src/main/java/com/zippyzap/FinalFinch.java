@@ -10,8 +10,8 @@ public class FinalFinch extends Finch {
     public void squareZippy(){
         int count = 0;
         while(count<4){
-            setMove("F",5,20);
-            setTurn("R",90,50);
+            setMove("F",5,100);
+            setTurn("R",90,100);
              count++;    
         }
     }
@@ -23,5 +23,26 @@ public class FinalFinch extends Finch {
         setTail(4, 3, 73, 25);  
         setBeak(255,255,0);  
         }
+
+    public void colorOff(){
+        setTail(1, 0, 0, 0);
+        setTail(2, 0, 0, 0);
+        setTail(3, 0, 0, 0);
+        setTail(4, 0, 0, 0);  
+        setBeak(255,255,0);  
+        }
+
+    public void kiteZippy(){
+        setTurn("L", 45, 100);
+        setMove("F", 10, 30);
+        setTurn("L", 110, 100);
+        setMove("F", 10, 30);
+        setTurn("L", 75, 100);
+        setMove("F", 10, 30);
+        setTurn("L", 110, 100);
+        setMove("F", 10, 30);
+    }
+
+
 
     }
