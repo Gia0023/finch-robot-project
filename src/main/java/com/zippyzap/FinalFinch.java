@@ -32,14 +32,30 @@ public class FinalFinch extends Finch {
         setBeak(255,255,0);  
         }
 
-    public void kiteZippy(){
+    public void kite(){
+        setTurn("R", 45, 100);
+        setMove("F", 10, 30);
         setTurn("L", 45, 100);
         setMove("F", 10, 30);
-        setTurn("L", 110, 100);
+        setTurn("L", 135, 100);
         setMove("F", 10, 30);
-        setTurn("L", 75, 100);
+        setTurn("L", 45, 100);
         setMove("F", 10, 30);
-        setTurn("L", 110, 100);
+    }
+
+    public void kiteZippy(){
+        setTurn("R", 45, 100);
+        setMove("F", 10, 30);
+        setTurn("L", 100, 100);
+        setMove("F", 10, 30);
+        setTurn("L", 160, 100);
+        setMove("F", 20, 30);
+        setTurn("R", 150, 100);
+        setMove("F", 10, 30);
+        setTurn("R", 100, 100);
+        setMove("F", 10, 30);
+        setMove("B", 10, 30);
+        setTurn("L", 45, 100);
         setMove("F", 10, 30);
     }
 
