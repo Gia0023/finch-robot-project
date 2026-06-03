@@ -41,6 +41,11 @@ public class FinalFinch extends Finch {
         setMove("F", 10, 30);
         setTurn("L", 45, 100);
         setMove("F", 10, 30);
+        pause(0.5);
+        setTurn("L", 160, 100);
+        setMove("F", 18, 30);
+        setMove("B", 9, 30);
+        setTurn()bfqhkrfe
     }
 
     public void kiteZippy(){

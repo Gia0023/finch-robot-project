@@ -7,6 +7,5 @@ public class TesterFinch{
         zippy.colorOn();
         zippy.kite();
     
-         zippy.stopAll();
     }
 }
