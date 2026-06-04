@@ -45,23 +45,21 @@ public class FinalFinch extends Finch {
         setTurn("L", 160, 100);
         setMove("F", 18, 30);
         setMove("B", 9, 30);
-        setTurn()bfqhkrfe
+        setTurn("L", 90, 100);
+        setMove("F", 4, 30);
+        setMove("B", 9, 30);
+        setMove("F", 5, 30);
+        setTurn("L", 90, 100);
+        setMove("F", 10, 30);
     }
 
-    public void kiteZippy(){
-        setTurn("R", 45, 100);
-        setMove("F", 10, 30);
-        setTurn("L", 100, 100);
-        setMove("F", 10, 30);
-        setTurn("L", 160, 100);
-        setMove("F", 20, 30);
-        setTurn("R", 150, 100);
-        setMove("F", 10, 30);
-        setTurn("R", 100, 100);
-        setMove("F", 10, 30);
-        setMove("B", 10, 30);
-        setTurn("L", 45, 100);
-        setMove("F", 10, 30);
+    public void squiggle(){
+        for(int i = 0; i <= 2; i++){
+         setTurn("L", 30, 100);
+         setMove("F", 5, 30);
+         setTurn("R", 30, 100);
+         setMove("F", 5, 30);
+        }
     }
 
 

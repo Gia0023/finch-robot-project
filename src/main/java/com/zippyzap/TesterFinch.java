@@ -6,6 +6,8 @@ public class TesterFinch{
 
         zippy.colorOn();
         zippy.kite();
+        zippy.pause(0.5);
+        zippy.squiggle();
     
     }
 }
